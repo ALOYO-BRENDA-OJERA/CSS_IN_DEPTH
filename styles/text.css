@@ -1,0 +1,49 @@
+.link{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+   }
+    .row_container{
+       display: flex;
+       gap: 2rem;
+    }
+   .right_align{
+       text-align: right;
+   }
+   .center_align{
+       text-align: center;
+       
+   }
+    .left_align{
+       text-align: left;
+    }
+    .justified{
+       text-align: justify;
+    }
+    .green{
+        color: rgb(12, 244, 12);
+    }
+    .blue{
+        color: blue;
+        text-shadow: 2px 2px red;
+    }
+    .red{
+        color:red;
+    }
+    
+        .over{
+
+            text-decoration: overline;
+        }
+        .under{
+            text-decoration: underline;
+        }
+.through{
+    text-decoration: line-through;
+    text-indent: 50px;
+    letter-spacing: 5px;
+}
+    
+   
+
+    

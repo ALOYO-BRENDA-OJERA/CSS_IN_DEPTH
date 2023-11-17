@@ -1,0 +1,18 @@
+.hidden{
+    overflow: hidden;
+    background-color: aqua;
+    width: 200px;
+    height: 65px;
+}
+.scroll{
+    overflow: scroll;
+    background-color: blueviolet;
+    width: 200px;
+    height: 65px;
+}
+.visible{
+    overflow: visible;
+    background-color: blue;
+    width: 200px;
+    height: 65px;
+}
