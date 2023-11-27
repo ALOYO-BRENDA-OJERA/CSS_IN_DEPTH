@@ -1,0 +1,99 @@
+.flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+    justify-content:center;
+    height: 300px;
+    align-items: center;
+  }
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    height: 20px;
+  }
+  
+  .column{
+    display:flex;
+    flex-direction: column;
+    background-color: aqua;
+    
+
+  }
+  .column > div {
+    background-color: rgb(238, 16, 142);
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    
+  }
+  .column_reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: antiquewhite;
+  }
+  .column_reverse > div{
+
+    background-color: rgb(68, 238, 16);
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+  }
+  
+  .flex_wrap{
+    display: flex;
+    background-color: DodgerBlue;
+    flex-wrap: wrap;
+
+  }
+
+  .flex_wrap > div{
+    background-color: rgb(238, 16, 120);
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    width: 70px;
+    
+  }
+
+  .revrse{
+    
+    display: flex;
+    flex-flow: row,wrap;
+    background-color: rgb(177, 179, 182);
+    
+    
+  }
+
+  .revrse > div{
+    background-color: rgb(16, 238, 16);
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+    width: 70px;
+  }
+
+  .orders{
+    display: flex;
+
+  }
+  
+.flex_order.item-1{
+    order:2;
+    flex-grow: 20px;
+}
+
+.flex_order.item-2{
+    order:1;
+}
+
+.flex_order.item-3{
+    order:3;
+}
+
+
+
+
+  
